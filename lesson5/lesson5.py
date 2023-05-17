@@ -34,7 +34,7 @@ import psycopg2
 
 conn = psycopg2.connect(
     user = "postgres",
-    password = "Ваш пароль",
+    password = "Ваш пароль1234",
     host = "localhost",
     port = "5432",
     database = "Game")

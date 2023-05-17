@@ -94,4 +94,11 @@
 --     LEFT JOIN tag as t on t.id = at.tag_id
 --     WHERE t.id = 3;
 
--- ALTER USER користувач SET search_path = public, "$user", public;
+
+
+SELECT * FROM article_tag as at
+    LEFT JOIN article as a on a.id = at.article_id
+    LEFT JOIN tag as t on t.id = at.tag_id
+    WHERE t.id = 3;
+
+ALTER USER користувач SET search_path = public, "$user", public ADDITIONAL_ROLES;

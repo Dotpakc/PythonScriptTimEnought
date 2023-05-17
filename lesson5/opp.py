@@ -28,7 +28,7 @@ class Alphabet:
         self.letters = letters
         
     def print_letters(self):
-        print('Letters: ', ', '.join(self.letters))
+        print('Letters: ', ', '.join( self.letters) )
 
     def len(self):  
         return len(self.letters)
@@ -37,7 +37,14 @@ class Alphabet:
         return len(self.letters)
     
     def __str__(self):
+        pass
+    
+    def __repr__(self):
         return f"Alphabet {self.language} has {self.len()} letters"
+    
+    
+    def __getitem__(self, index):
+        return self.letters[index]
 
 class EnglishAlphabet(Alphabet):
     

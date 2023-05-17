@@ -1,0 +1,6 @@
+*.pass
+*.db
+lesson5.sqlite3
+__pycache__/
+.vscode/
+test_text.txt

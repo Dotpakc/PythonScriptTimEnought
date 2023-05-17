@@ -1,0 +1,1 @@
+price = {'apple': 10, 'orange': 20, 'banana': 30}

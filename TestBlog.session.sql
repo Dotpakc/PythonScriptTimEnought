@@ -102,3 +102,12 @@ SELECT * FROM article_tag as at
     WHERE t.id = 3;
 
 ALTER USER користувач SET search_path = public, "$user", public ADDITIONAL_ROLES;
+
+ALTER USER користувач SET search_path = public, "$user", public ADDITIONAL_ROLES;
+ALTER USER користувач SET search_path = public, "$user", public ADDITIONAL_ROLES;
+
+ALTER USER користувач SET search_path = public, "$user", public ADDITIONAL_ROLES;
+
+ALTER USER користувач SET search_path = public, "$user", public ADDITIONAL_ROLES;
+
+ALTER USER користувач SET search_path = public, "$user", public ADDITIONAL_ROLES;
